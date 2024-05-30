@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Directory</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: left;
+        }
+        thead {
+            background-color: #f2f2f2;
+        }
+        .table-container {
+            max-width: 800px;
+            margin: auto;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="table-container">
+        <h2>Employee Details</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Position</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>jhansi</td>
+                    <td>Manager</td>
+                    <td>jansi@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>moni</td>
+                    <td>Developer</td>
+                    <td>moni@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Emily stark</td>
+                    <td>Designer</td>
+                    <td>emily.s@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
